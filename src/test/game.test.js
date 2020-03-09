@@ -56,3 +56,6 @@ test('it returns true if the game is a draw', () => {
 test('it returns true if the game is a draw', () => {
   expect(game.checkDraw(['X', 'X', 'X', 'O', 'O', 'X', 'X', 'X', 'O'])).toBe(true);
 });
+test('it returns true if the game is a draw', () => {
+  expect(game.checkDraw(['X', 'X', 'O', 'O', 'O', 'X', 'X', 'X', 'O'])).toBe(true);
+});

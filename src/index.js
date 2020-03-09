@@ -1,5 +1,6 @@
 import './style.css';
 import Player from './modules/player';
+import render from './modules/gameboard';
 import {
   checkWin,
   checkDraw,
@@ -44,11 +45,6 @@ let f = '';
 let g = '';
 let h = '';
 let i = '';
-
-function render(a = '', b = '', c = '', d = '', e = '', f = '', g = '', h = '', i = '') {
-  const board = [a, b, c, d, e, f, g, h, i];
-  return board;
-}
 
 function blocKeys() {
   document.getElementById('0').onclick = null;
