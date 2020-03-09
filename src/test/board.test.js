@@ -1,6 +1,6 @@
 import render from '../modules/gameboard';
 
-test('it shows the board passed as parameter', () => {
+test('it checks empty board', () => {
   expect(render()).toMatchObject(['', '', '', '', '', '', '', '', '']);
 });
 
