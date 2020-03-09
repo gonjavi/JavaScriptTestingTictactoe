@@ -1,5 +1,5 @@
 import './style.css';
-import Player from './modules/player';
+import { Player, changePlayer } from './modules/player';
 import render from './modules/gameboard';
 import {
   checkWin,
@@ -114,10 +114,7 @@ function checkWinOrDraw(win) {
 }
 
 document.getElementById('0').onclick = () => {
-  // symbol === 'X' ? symbol = 'O' : symbol = 'X';
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('0').innerHTML = symbol;
@@ -130,9 +127,7 @@ document.getElementById('0').onclick = () => {
 };
 
 document.getElementById('1').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('1').innerHTML = symbol;
@@ -145,9 +140,7 @@ document.getElementById('1').onclick = () => {
 };
 
 document.getElementById('2').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('2').innerHTML = symbol;
@@ -160,9 +153,7 @@ document.getElementById('2').onclick = () => {
 };
 
 document.getElementById('3').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('3').innerHTML = symbol;
@@ -175,9 +166,7 @@ document.getElementById('3').onclick = () => {
 };
 
 document.getElementById('4').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('4').innerHTML = symbol;
@@ -190,9 +179,7 @@ document.getElementById('4').onclick = () => {
 };
 
 document.getElementById('5').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('5').innerHTML = symbol;
@@ -205,9 +192,7 @@ document.getElementById('5').onclick = () => {
 };
 
 document.getElementById('6').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('6').innerHTML = symbol;
@@ -220,9 +205,7 @@ document.getElementById('6').onclick = () => {
 };
 
 document.getElementById('7').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('7').innerHTML = symbol;
@@ -235,9 +218,7 @@ document.getElementById('7').onclick = () => {
 };
 
 document.getElementById('8').onclick = () => {
-  if (symbol === 'X') {
-    symbol = 'O';
-  } else { symbol = 'X'; }
+  symbol = changePlayer();
   boardf = render(a, b, c, d, e, f, g, h, i);
   win = checkWin(boardf);
   document.getElementById('8').innerHTML = symbol;
