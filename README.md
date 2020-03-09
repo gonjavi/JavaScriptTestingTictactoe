@@ -6,7 +6,7 @@
 This app tests the following functions:
  - Check win.
  - Check draw.
- - Check empty board.
+ - Check the empty board.
  - Check board passed as a parameter.
  - Check the change of player.
  
