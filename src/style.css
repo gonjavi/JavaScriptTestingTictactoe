@@ -1,0 +1,21 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.board {
+  border: 2px solid orange;
+  width: 12em;
+  margin: auto;
+  
+  flex-wrap: wrap;
+}
+
+th{
+  border: 2px solid orange;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+}
