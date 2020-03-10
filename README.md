@@ -19,6 +19,10 @@ This app tests the following functions:
 - Materiaize-CSS
 - Visual Code
 
+## Live Demo
+
+[Live Demo Link](https://gonjavi.github.io/JavaScriptTestingTictactoe/)
+
 
 ### Prerequisites
 npm 6.13.14
